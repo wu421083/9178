@@ -1,0 +1,306 @@
+local Translations = {
+    ["Hub | Delta"] = "Hub | Delta",
+    ["Version 45.3.6"] = "版本 45.3.6",
+    ["Player"] = "玩家",
+    ["Graphics"] = "图形",
+    ["Nextbot Utilities"] = "Nextbot 工具",
+    ["Freecam"] = "自由视角",
+    ["No Clip"] = "穿墙",
+    ["Noclip Speed"] = "穿墙速度",
+    ["Anti Gravity"] = "反重力",
+    ["Infinite Jump"] = "无限跳跃",
+    ["Instant TP"] = "瞬间传送",
+    ["Select Player"] = "选择玩家",
+    ["Highlight Players"] = "高亮玩家",
+    ["TP To Player"] = "传送到玩家",
+    ["TP Player To You"] = "传送玩家到你",
+    ["Brightness Lock"] = "亮度锁定",
+    ["Fullbright"] = "全亮",
+    ["Remove Fog"] = "移除雾",
+    ["FPS Boost(Potato Mode)"] = "FPS提升（低端机模式）",
+    ["Anti Nextbot"] = "反Nextbot",
+    ["Auto Whistle"] = "自动吹口哨",
+    ["Auto Carry"] = "自动搬运",
+    ["Reset Timer"] = "重置计时器",
+    ["Map Vote"] = "地图投票",
+    ["Evade"] = "Evade",
+    ["Toggle"] = "切换",
+    ["Lock"] = "锁定",
+    ["Info"] = "信息",
+    ["Farms& More"] = "农场与更多",
+    ["Visuals"] = "视觉",
+    ["Credits"] = "致谢",
+    ["Server Info"] = "服务器信息",
+    ["Player Info"] = "玩家信息",
+    ["System"] = "系统",
+    ["Server Browser"] = "服务器浏览器",
+    ["Server Stats"] = "服务器统计",
+    ["Important"] = "重要",
+    ["Auto Farms"] = "自动农场",
+    ["Revive"] = "复活",
+    ["Select Emote"] = "选择动作",
+    ["ESP"] = "透视",
+    ["Utilities"] = "工具",
+    ["Player Tools"] = "玩家工具",
+    ["Search"] = "搜索",
+
+    ["SERVER STATUS:"] = "服务器状态：",
+    ["Ping"] = "延迟",
+    ["Players"] = "玩家",
+    ["Server Age"] = "服务器运行时间",
+    ["Time"] = "时间",
+
+    ["LOCAL PLAYER:"] = "本地玩家：",
+    ["Name"] = "名字",
+    ["Display"] = "显示名",
+    ["Health"] = "生命值",
+    ["Position"] = "位置",
+    ["Memory Usage"] = "内存使用",
+
+    ["Rejoin Server"] = "重新加入服务器",
+    ["Server Hop"] = "切换服务器",
+    ["Region"] = "地区",
+    ["Target Server Region"] = "目标服务器地区",
+    ["Any"] = "任何",
+    ["Asia(Singapore)"] = "亚洲（新加坡）",
+    ["Asia(Mumbai)"] = "亚洲（孟买）",
+    ["Asia(Tokyo)"] = "亚洲（东京）",
+    ["Europe(Germany)"] = "欧洲（德国）",
+    ["US East"] = "美国东部",
+    ["US West"] = "美国西部",
+    ["South America(Brazil)"] = "南美（巴西）",
+    ["Hop to Region Server"] = "跳转到地区服务器",
+    ["Place ID"] = "地点 ID",
+    ["Server ID"] = "服务器 ID",
+    ["Copy Server ID"] = "复制服务器 ID",
+    ["CPU Temp"] = "CPU 温度",
+    ["Ping:373ms (Spike!)"] = "延迟：373 毫秒（波动！）",
+    ["FPS History:"] = "FPS 历史：",
+    ["Auto Restart(Low FPS)"] = "低FPS自动重启",
+    ["Destroy GUI"] = "销毁GUI",
+    ["Do not buy this script if somebody sell to you,because is it free"] = "如果有人卖给你这个脚本别买，因为它是免费的",
+
+    ["Auto Farm Tickets"] = "自动刷票",
+    ["Times Revived"] = "复活次数",
+    ["Auto Revive Farm"] = "自动复活农场",
+    ["Auto Respawn"] = "自动重生",
+    ["Times Downed"] = "倒地次数",
+    ["Reset Character"] = "重置角色",
+    ["Reset Character Keybind"] = "重置角色快捷键",
+    ["Anti AFK"] = "防挂机",
+    ["Antinextbot Distance:50/200 studs"] = "反Nextbot距离：50/200 范围",
+    ["Quick Revive"] = "快速复活",
+    ["Select Map"] = "选择地图",
+    ["Vote Map"] = "投票地图",
+    ["Lag Switch (Flag Removed)"] = "延迟开关（移除标记）",
+    ["Lag Duration"] = "延迟持续时间",
+    ["Bloom + Color Correction"] = "光晕 + 色彩校正",
+    ["FPS Boost (Potato Mode)"] = "FPS提升（低端机模式）",
+    ["FPS Cap"] = "FPS上限",
+    ["Blackout Screen (AFK)"] = "黑屏（AFK）",
+    ["Disable 3D Rendering (AFK)"] = "禁用3D渲染（AFK）",
+    ["Custom Clock"] = "自定义时钟",
+    ["Default Blue Sky"] = "默认蓝天",
+    ["Realistic Sunset"] = "真实日落",
+    ["Nebula Space"] = "星云空间",
+    ["Anime Sky"] = "动漫天空",
+    ["Remove Sky"] = "移除天空",
+    ["Reset to Default"] = "重置为默认", 
+    ["Auto Vote"] = "自动投票",
+    ["Revive Yourself"] = "自我复活",
+    ["APose"] = "A姿态",
+    ["Enable Auto Emote(Hold C)"] = "启用自动动作（按住C）",
+    ["Auto Revive Others"] = "自动复活他人",
+    ["Teleport to"] = "传送到",
+    ["Super Full Brightness"] = "超级全亮",
+    ["X-Ray Vision"] = "X光视野",
+    ["Clear Fog / Atmosphere"] = "清除雾霾/大气",
+    ["Lag Switch (Flag Removed)"] = "延迟开关（移除标记）",
+    ["Lag Duration"] = "延迟持续时间",
+    ["Bloom + Color Correction"] = "光晕 + 色彩校正",
+    ["FPS Boost (Potato Mode)"] = "FPS提升（低端机模式）",
+    ["FPS Cap"] = "FPS上限",
+    ["Client Sky"] = "客户端天空",
+    ["Daytime"] = "白天",
+    ["Sunset"] = "日落",
+    ["Movement"] = "移动",
+    ["TP Walk"] = "传送行走",
+    ["TP Walk Speed"] = "传送行走速度",
+    ["JumpPower"] = "跳跃力",
+    ["Auto JumpPower"] = "自动跳跃力",
+    ["Free Fly"] = "自由飞行",
+    ["Camera"] = "相机",
+    ["Enable Free Camera"] = "启用自由相机",
+    ["Third-Person Ghost View"] = "第三人称幽灵视角",
+    ["Misc"] = "杂项",
+    ["Float (Q Down / E Up)"] = "漂浮（Q键下按 / E键上抬）",
+    ["Noclip"] = "穿墙",
+    ["Fly Speed"] = "飞行速度",
+    ["Gravity"] = "重力",
+    ["Auto Gravity"] = "自动重力",
+    ["Bunny Hop Acceleration"] = "兔跳加速",
+    ["Enable Bunny Hop"] = "启用兔跳",
+    ["Infinite Slide Speed"] = "无限滑行速度",
+    ["Enable Infinite Slide"] = "启用无限滑行",
+    ["Wall Teleport"] = "墙壁传送",
+    ["Auto Jump"] = "自动跳跃",
+    ["Auto Interact (Spam E)"] = "自动互动（频繁按E）",
+    ["Anti-Void"] = "反虚空",
+    ["Anti-Admin"] = "反管理员",
+    ["Anti-Ragdoll"] = "反倒地",
+    ["Auto Bhop (Hold Space)"] = "自动兔跳（按住空格）",
+    ["Mobile Bhop Jump"] = "移动版兔跳跳跃",
+    ["Enable Nextbot Radar"] = "启用Nextbot雷达",
+    ["Night"] = "夜晚",
+    ["Custom Clock"] = "自定义时钟",
+    ["Default Blue Sky"] = "默认蓝天",
+    ["Realistic Sunset"] = "真实日落",
+    ["Enable Godmode"] = "启用上帝模式",
+    ["Disable Camera shake"] = "禁用镜头摇晃",
+    ["Player ESP"] = "玩家透视",
+    ["Player ESP Color"] = "玩家透视颜色",
+    ["Ticket ESP"] = "票据透视",
+    ["Ticket ESP Color"] = "票据透视颜色",
+    ["Nextbot ESP"] = "Nextbot透视",
+    ["Nextbot ESP Color"] = "Nextbot透视颜色",
+    ["Tracer Downed Players"] = "倒地玩家线条",
+    ["Downed Tracer Color"] = "倒地线条颜色",
+    ["Nextbot Tracer"] = "Nextbot线条",
+    ["Nextbot Tracer Color"] = "Nextbot线条颜色",
+    ["Enable Compass"] = "启用罗盘",
+    ["Radar Range"] = "雷达范围",
+    ["Enable Nextbot Radar"] = "启用Nextbot雷达",
+    ["Warning"] = "警告",
+    ["Antinextbot Distance studs"] = "反Nextbot距离（单位：格）",
+    ["Map Voting"] = "地图投票",
+    ["Enable Nextbot Radar"] = "启用Nextbot雷达",
+    ["Custom Timer"] = "自定义计时器",
+    ["Timer"] = "计时",
+    ["Select Timer"] = "选择时间",
+    ["Start Timer"] = "开始计时",
+    ["Start Timer Keybind:Y"] = "开始计时快捷键：Y",
+    ["Reset Timer Keybind:H"] = "重置计时快捷键：H",
+    ["Highlight Player"] = "高亮玩家",
+
+    ["Avoid getting reported:"] = "避免被举报：",
+    ["Do NOT use farms or teleports around other players."] = "不要在其他玩家附近使用农场或传送。",
+    ["Suspicious behavior makes people report instantly."] = "可疑行为会让人立刻举报。",
+
+    ["Avoid getting banned:"] = "避免被封禁：",
+    ["Do not overuse auto farms,avoid spamming events, and switch servers often to reduce detection."] = "不要过度使用自动农场、避免刷事件，并经常换服务器降低检测。",
+}
+
+local function translateText(text)
+    if not text or type(text) ~= "string" then return text end
+    
+    if Translations[text] then
+        return Translations[text]
+    end
+    
+    for en, cn in pairs(Translations) do
+        if text:find(en) then
+            return text:gsub(en, cn)
+        end
+    end
+    
+    return text
+end
+
+local function setupTranslationEngine()
+    local success, err = pcall(function()
+        local oldIndex = getrawmetatable(game).__newindex
+        setreadonly(getrawmetatable(game), false)
+        
+        getrawmetatable(game).__newindex = newcclosure(function(t, k, v)
+            if (t:IsA("TextLabel") or t:IsA("TextButton") or t:IsA("TextBox")) and k == "Text" then
+                v = translateText(tostring(v))
+            end
+            return oldIndex(t, k, v)
+        end)
+        
+        setreadonly(getrawmetatable(game), true)
+    end)
+    
+    if not success then
+        warn("元表劫持失败:", err)
+       
+        local translated = {}
+        local function scanAndTranslate()
+            for _, gui in ipairs(game:GetService("CoreGui"):GetDescendants()) do
+                if (gui:IsA("TextLabel") or gui:IsA("TextButton") or gui:IsA("TextBox")) and not translated[gui] then
+                    pcall(function()
+                        local text = gui.Text
+                        if text and text ~= "" then
+                            local translatedText = translateText(text)
+                            if translatedText ~= text then
+                                gui.Text = translatedText
+                                translated[gui] = true
+                            end
+                        end
+                    end)
+                end
+            end
+            
+            local player = game:GetService("Players").LocalPlayer
+            if player and player:FindFirstChild("PlayerGui") then
+                for _, gui in ipairs(player.PlayerGui:GetDescendants()) do
+                    if (gui:IsA("TextLabel") or gui:IsA("TextButton") or gui:IsA("TextBox")) and not translated[gui] then
+                        pcall(function()
+                            local text = gui.Text
+                            if text and text ~= "" then
+                                local translatedText = translateText(text)
+                                if translatedText ~= text then
+                                    gui.Text = translatedText
+                                    translated[gui] = true
+                                end
+                            end
+                        end)
+                    end
+                end
+            end
+        end
+        
+        local function setupDescendantListener(parent)
+            parent.DescendantAdded:Connect(function(descendant)
+                if descendant:IsA("TextLabel") or descendant:IsA("TextButton") or descendant:IsA("TextBox") then
+                    task.wait(0.1)
+                    pcall(function()
+                        local text = descendant.Text
+                        if text and text ~= "" then
+                            local translatedText = translateText(text)
+                            if translatedText ~= text then
+                                descendant.Text = translatedText
+                            end
+                        end
+                    end)
+                end
+            end)
+        end
+        
+        pcall(setupDescendantListener, game:GetService("CoreGui"))
+        local player = game:GetService("Players").LocalPlayer
+        if player and player:FindFirstChild("PlayerGui") then
+            pcall(setupDescendantListener, player.PlayerGui)
+        end
+        
+        while true do
+            scanAndTranslate()
+            task.wait(3)
+        end
+    end
+end
+
+task.wait(2)
+
+setupTranslationEngine()
+
+local success, err = pcall(function()
+--这下面填加载外部脚本
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\67\79\79\76\88\80\76\79\47\68\80\45\72\85\66\45\99\111\111\108\120\112\108\111\47\114\101\102\115\47\104\101\97\100\115\47\109\97\105\110\47\69\118\97\100\101\46\108\117\97\34\41\41\40\41")()
+
+
+end)
+
+if not success then
+    warn("加载失败:", err)
+end
